@@ -208,7 +208,7 @@ function createImage(url) {
 
 function createTitle(text) {
   let element = document.createElement("h5");
-  element.className = "card-title";
+  element.className = "card-title titlecard";
   element.innerHTML = text;
   return element;
 }
