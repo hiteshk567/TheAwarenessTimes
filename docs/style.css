@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, rgb(94, 92, 92), #b0b3b3);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #fff;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.paperName {
+    text-align: center;
+}
+
+.navBarRow {
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+img {
+    height: 200px !important;
+}
+
+hr {
+    width: 5%;
+    margin-top: 30px;
+    border-style: dotted none none;
+    border-color: #fff;
+    border-width: 5px;
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    z-index: 1;
+}
+
+#content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+#content {
+    padding-top: 102px;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.custom-select {
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
